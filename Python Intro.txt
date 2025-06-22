@@ -1,4 +1,4 @@
-d = {1: "Rohit", 2: "Kanishkar", 3: "Hannah" }
+d = {1: "John", 2: "Steve", 3: "Blue" }
 print(type(d))
 d[1] = "Rohan"
 d[2] = "Glass"

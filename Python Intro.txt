@@ -1,0 +1,85 @@
+d = {1: "Rohit", 2: "Kanishkar", 3: "Hannah" }
+print(type(d))
+d[1] = "Rohan"
+d[2] = "Glass"
+d[3]= "California"
+print(d)
+
+
+print("Welcome to course, let's see if you can pass the class")
+results = float(input("Enter your grade on the exam"))
+
+if results >= 10.0:
+    print("Wow perfect score, passed with distinction")
+elif results >=9.0:
+    print("You have scored an A in the course")
+elif results >= 8.0:
+    print("You have scored a B in the course")
+elif results >= 7.0:
+    print("You have scored a C and you pass the class")
+elif  results >= 6.0: 
+    print("you have failed the class but will give another retake")
+else:
+    print("You have unfortunately failed the class, please try again next year")
+
+
+
+
+l = [2,3,4,5,7]
+print(type(l))
+l.append(8) # adds to the end of the list
+print(l)
+print(len(l))
+print(max(l))
+print(min(l))
+l[0] = 5
+l.sort() # sets the whole thing in numerical order
+print(l)
+l.reverse() # reverse the whole lists 
+print(l)
+
+t= 3,4,6,7
+print(type(t))
+
+
+
+
+s ="python"
+print(type(s))
+s.lower() ## makes strings lower case
+s.upper() ## makes the strings upper case
+s.swapcase() #makes lowers one Upper, Upper ones lower
+s.capitalize() #capitalizes the first letter of the word
+s.count("o") ## counts the total number of letters
+
+sux = "python is 1 cool class"
+print(type(sux))
+sux[7]
+sux.title() ## first letter of each words 
+print(sux.isalpha())
+print(sux.isdigit()) # check if there are numbers inside the string
+print(sux.isalnum()) #check if there are numbers or strings
+print(sux.isspace()) #check for white space
+
+
+print(ord("a"))
+print(ord("A"))
+print(chr(1))
+
+print("hi good{}".format("morning"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
